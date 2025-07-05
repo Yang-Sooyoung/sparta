@@ -1,0 +1,36 @@
+spring:
+  application:
+    name: product-service
+  profiles:
+    active: local
+  config:
+    import: "configserver:"
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: config-server
+server:
+  port: 0
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:19090/eureka/
+
+# 1-10강 yml
+#management:
+#  zipkin:
+#    tracing:
+#      endpoint: "http://localhost:9411/api/v2/spans"
+#  tracing:
+#    sampling:
+#      probability: 1.0
+
+management:
+  endpoint:
+    web:
+      exposure:
+        include: refresh
+
+message: "default message"
+

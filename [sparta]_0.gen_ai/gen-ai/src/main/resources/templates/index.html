@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>AI 실시간 응답</title>
+</head>
+<body>
+<h2>AI 응답 스트리밍</h2>
+<ul id="messages"></ul>
+
+<script>
+  const socket = new WebSocket("ws://localhost:8080/ws/ai");
+  const messages = document.getElementById("messages");
+
+  socket.onmessage = function(event) {
+    const li = document.createElement("li");
+    li.textContent = event.data;
+    messages.appendChild(li);
+  };
+
+  socket.onopen = () => console.log("✅ WebSocket 연결됨");
+  socket.onerror = (e) => console.error("❌ WebSocket 에러:", e);
+  socket.onclose = () => console.log("⛔ WebSocket 닫힘");
+</script>
+</body>
+</html>

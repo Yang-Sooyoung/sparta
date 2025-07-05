@@ -1,0 +1,3 @@
+docker run -d --name=prometheus -p 9090:9090 -v /d/intellij_workspace/[sparta]_6.monitoring_securecoding/monitor/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml prom/prometheus
+
+docker run --name loki -d -v /d/intellij_workspace/[sparta]_6.monitoring_securecoding/monitor/loki:/mnt/config -p 3100:3100 grafana/loki:3.0.0 -config.file=/mnt/config/loki-config.yml

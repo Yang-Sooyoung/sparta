@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_INJECTED_CODE" value="false" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="174eb32c-b14c-419b-8b2e-f72a702fbc45" name="Changes" comment="application.properties 수정" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="myselectshop" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="myselectshop" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="myselectshop" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dfda2d3a0549207365dce901d2ffab44d4a7b9cd" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;dvlpsy&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/dvlpsy/sparta-myselectshop.git&quot;,
+    &quot;accountId&quot;: &quot;6e8362a2-e76d-4c9a-bf30-f16622e11519&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2sXN1cGvY1X7F1qOpGn8bISuNnZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Gradle.Build myselectshop.executor": "Run",
+    "Gradle.Build myselectshop_aws.executor": "Run",
+    "Gradle.myselectshop [build].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.MyselectshopApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/intellij_workspace/Recording Project/week4/myselectshop-aws",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.sparta.myselectshop.service" />
+      <recent name="com.sparta.myselectshop.dto" />
+      <recent name="com.sparta.myselectshop.security" />
+      <recent name="com.sparta.myselectshop.repository" />
+      <recent name="com.sparta.myselectshop.entity" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\intellij_workspace\Recording Project\week4\myselectshop\src\main\resources\static\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\intellij_workspace\Recording Project\week4\myselectshop\src\main\resources\static" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.myselectshop [build]">
+    <configuration name="myselectshop [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="MyselectshopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="myselectshop.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sparta.myselectshop.MyselectshopApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.myselectshop [build]" />
+        <item itemvalue="Gradle.myselectshop [build]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.21829.142" />
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-IU-242.21829.142" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="174eb32c-b14c-419b-8b2e-f72a702fbc45" name="Changes" comment="" />
+      <created>1738597745539</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1738597745539</updated>
+      <workItem from="1738597746524" duration="722000" />
+      <workItem from="1738625242091" duration="8089000" />
+      <workItem from="1738637966181" duration="10669000" />
+      <workItem from="1738651005523" duration="12647000" />
+      <workItem from="1738671776751" duration="7007000" />
+      <workItem from="1738683192846" duration="9546000" />
+      <workItem from="1738693128085" duration="1494000" />
+      <workItem from="1738710901967" duration="4772000" />
+      <workItem from="1738716055870" duration="2047000" />
+      <workItem from="1738723407579" duration="6000" />
+      <workItem from="1738743579608" duration="684000" />
+      <workItem from="1738744304697" duration="1084000" />
+      <workItem from="1738745416554" duration="193000" />
+      <workItem from="1738745620181" duration="351000" />
+    </task>
+    <task id="LOCAL-00001" summary="init commit">
+      <option name="closed" value="true" />
+      <created>1738598204707</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1738598204707</updated>
+    </task>
+    <task id="LOCAL-00002" summary="상품 검색 API 구현">
+      <option name="closed" value="true" />
+      <created>1738625402094</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1738625402094</updated>
+    </task>
+    <task id="LOCAL-00003" summary="관심 상품 등록 API">
+      <option name="closed" value="true" />
+      <created>1738626625599</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1738626625599</updated>
+    </task>
+    <task id="LOCAL-00004" summary="관심상품 희망 최저가 업데이트 API">
+      <option name="closed" value="true" />
+      <created>1738627250268</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1738627250268</updated>
+    </task>
+    <task id="LOCAL-00005" summary="관심상품 조회 API">
+      <option name="closed" value="true" />
+      <created>1738627614322</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1738627614322</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Scheduler 기능 구현">
+      <option name="closed" value="true" />
+      <created>1738628393810</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1738628393810</updated>
+    </task>
+    <task id="LOCAL-00007" summary="회원기능 구현">
+      <option name="closed" value="true" />
+      <created>1738638755080</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1738638755080</updated>
+    </task>
+    <task id="LOCAL-00008" summary="회원별 상품 API 구현">
+      <option name="closed" value="true" />
+      <created>1738640132522</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1738640132522</updated>
+    </task>
+    <task id="LOCAL-00009" summary="상품 페이징 및 정렬">
+      <option name="closed" value="true" />
+      <created>1738641899792</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1738641899792</updated>
+    </task>
+    <task id="LOCAL-00010" summary="상품 폴더 설계">
+      <option name="closed" value="true" />
+      <created>1738645619048</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1738645619048</updated>
+    </task>
+    <task id="LOCAL-00011" summary="상품 폴더 설계">
+      <option name="closed" value="true" />
+      <created>1738650715582</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1738650715582</updated>
+    </task>
+    <task id="LOCAL-00012" summary="폴더 생성 및 조회 구현">
+      <option name="closed" value="true" />
+      <created>1738653184825</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1738653184825</updated>
+    </task>
+    <task id="LOCAL-00013" summary="관심 상품에 폴더 추가 및 폴더 전체 조회 구현">
+      <option name="closed" value="true" />
+      <created>1738656208392</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1738656208392</updated>
+    </task>
+    <task id="LOCAL-00014" summary="폴더 별 관심상품 조회 구현">
+      <option name="closed" value="true" />
+      <created>1738656244201</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1738656244201</updated>
+    </task>
+    <task id="LOCAL-00015" summary="오류 수정">
+      <option name="closed" value="true" />
+      <created>1738693298253</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1738693298253</updated>
+    </task>
+    <task id="LOCAL-00016" summary="오류 수정2">
+      <option name="closed" value="true" />
+      <created>1738715929871</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1738715929871</updated>
+    </task>
+    <task id="LOCAL-00017" summary="application.properties 수정">
+      <option name="closed" value="true" />
+      <created>1738716421052</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1738716421052</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init commit" />
+    <MESSAGE value="상품 검색 API 구현" />
+    <MESSAGE value="관심 상품 등록 API" />
+    <MESSAGE value="관심상품 희망 최저가 업데이트 API" />
+    <MESSAGE value="관심상품 조회 API" />
+    <MESSAGE value="Scheduler 기능 구현" />
+    <MESSAGE value="회원기능 구현" />
+    <MESSAGE value="회원별 상품 API 구현" />
+    <MESSAGE value="상품 페이징 및 정렬" />
+    <MESSAGE value="폴더 생성 및 조회 구현" />
+    <MESSAGE value="폴더 생성 및 조회 구현" />
+    <MESSAGE value="관심 상품에 폴더 추가 및 폴더 전체 조회 구현" />
+    <MESSAGE value="폴더 별 관심상품 조회 구현" />
+    <MESSAGE value="오류 수정" />
+    <MESSAGE value="오류 수정2" />
+    <MESSAGE value="application.properties 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="application.properties 수정" />
+  </component>
+</project>
