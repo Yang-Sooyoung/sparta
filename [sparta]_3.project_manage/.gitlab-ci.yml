@@ -1,0 +1,56 @@
+services:
+  - docker:stable-dind
+stages:
+  - build jar
+  - build and push docker image
+  - deploy
+variables:
+  APPLICATION_NAME: "01"
+  TAG_NAME: "latest"
+  DOCKER_IMAGE: "group-19401410/project-01"
+build:
+  image: openjdk:17-jdk-slim
+  stage: build jar
+  script:
+    - chmod +x gradlew
+    - ./gradlew clean build
+  artifacts:
+    paths:
+      - build/libs/*.jar
+docker build:
+  image: docker:latest
+  stage: build and push docker image
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main" || $CI_COMMIT_REF_NAME == "main"
+      variables:
+        TAG_NAME: "latest"
+    - if: $CI_COMMIT_BRANCH == "develop" || $CI_COMMIT_REF_NAME == "develop"
+      variables:
+        TAG_NAME: "develop"
+
+  script:
+    - apk add --update --no-cache curl py3-pip py3-virtualenv
+    - python3 -m venv /tmp/venv
+    - source /tmp/venv/bin/activate
+    - pip install awscli
+    - aws configure set aws_access_key_id $AWS_ACCESS_KEY_ID
+    - aws configure set aws_secret_access_key $AWS_SECRET_ACCESS_KEY
+    - aws configure set region ap-northeast-2
+    - docker build -t $DOCKER_IMAGE .
+    - docker tag $DOCKER_IMAGE:latest 523853728681.dkr.ecr.ap-northeast-2.amazonaws.com/$DOCKER_IMAGE:$TAG_NAME
+    - aws ecr get-login-password --region ap-northeast-2 | docker login --username AWS --password-stdin 730335597998.dkr.ecr.ap-northeast-2.amazonaws.com
+#    - aws ecr get-login-password --region ap-northeast-2 | docker login --username AWS --password-stdin 523853728681.dkr.ecr.ap-northeast-2.amazonaws.com
+    - (Get-ECRLoginCommand).Password | docker login --username AWS --password-stdin 523853728681.dkr.ecr.ap-northeast-2.amazonaws.com
+    - docker push 523853728681.dkr.ecr.ap-northeast-2.amazonaws.com/$DOCKER_IMAGE:$TAG_NAME
+
+deploy:
+  image: python:3.9-slim
+  stage: deploy
+  script:
+    - python3 -m venv /tmp/venv
+    - source /tmp/venv/bin/activate
+    - pip install awscli
+    - aws configure set aws_access_key_id $AWS_ACCESS_KEY_ID
+    - aws configure set aws_secret_access_key $AWS_SECRET_ACCESS_KEY
+    - aws configure set region ap-northeast-2
+    - aws ecs update-service --cluster project-cluster --service project-01-service --task-definition project-01-task:1 --force-new-deployment

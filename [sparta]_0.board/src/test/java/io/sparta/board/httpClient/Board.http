@@ -1,0 +1,47 @@
+### Post Create
+POST http://localhost:8080/api/post
+Content-Type: application/json
+
+{
+  "title": "게시글 테스트",
+  "content": "게시글 테스트입니다."
+}
+
+### Post Read
+GET http://localhost:8080/api/post/3e76e7e4-005a-4d68-b1f2-128f5f6df58e?page=0&size=10&sort=DESC&orderby=CREATED
+Content-Type: application/json
+
+### Post Patch
+PATCH http://localhost:8080/api/post/7e5af558-6851-44aa-acb7-3857f08d9fe7
+Content-Type: application/json
+
+{
+  "title": "게시글 수정 테스트",
+  "content": "게시글 수정 테스트입니다."
+}
+
+### Post Delete
+DELETE http://localhost:8080/api/post/b3231a9d-8960-4c42-b7fa-cff142e74ce2
+Content-Type: application/json
+
+### Comment Create
+POST http://localhost:8080/api/comment
+Content-Type: application/json
+
+{
+  "post-id": "b3231a9d-8960-4c42-b7fa-cff142e74ce2",
+  "content": "댓글 테스트 입니다.3"
+}
+
+### Comment Update
+PATCH http://localhost:8080/api/comment/b3b611c2-eb3d-4c61-bd5f-b270117e2e25
+Content-Type: application/json
+
+{
+  "post-id": "7e5af558-6851-44aa-acb7-3857f08d9fe7",
+  "content": "댓글 수정 테스트입니다."
+}
+
+### Comment Delete
+DELETE http://localhost:8080/api/comment/98aebe02-4be2-441a-9ef3-84a38fbecdc7
+Content-Type: application/json
